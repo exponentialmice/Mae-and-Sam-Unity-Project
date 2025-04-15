@@ -691,7 +691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
   key: 32
-  jumpStrength: 20
+  jumpStrength: 30
   groundTag: Ground
   checkGround: 1
 --- !u!1001 &294605680
