@@ -2468,7 +2468,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   happenOnlyOnce: 0
-  filterByTag: 0
+  filterByTag: 1
   filterTag: Player
   frequency: 1
   eventType: 0
@@ -3189,7 +3189,7 @@ PrefabInstance:
     - target: {fileID: 3958941555595329716, guid: 654b5ba7f6f8d804d92476ecaad6eeb7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7.521788
+      value: 7.7970853
       objectReference: {fileID: 0}
     - target: {fileID: 3958941555595329716, guid: 654b5ba7f6f8d804d92476ecaad6eeb7,
         type: 3}
@@ -3199,7 +3199,7 @@ PrefabInstance:
     - target: {fileID: 3958941555595329716, guid: 654b5ba7f6f8d804d92476ecaad6eeb7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.2711
+      value: -14.4086
       objectReference: {fileID: 0}
     - target: {fileID: 3958941555595329716, guid: 654b5ba7f6f8d804d92476ecaad6eeb7,
         type: 3}
@@ -3617,12 +3617,12 @@ PrefabInstance:
     - target: {fileID: 1453378809137765455, guid: 3fd4d3d1d96cf0f4d8dbc9bb0c595996,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.9
+      value: -17.09
       objectReference: {fileID: 0}
     - target: {fileID: 1453378809137765455, guid: 3fd4d3d1d96cf0f4d8dbc9bb0c595996,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -2.29
       objectReference: {fileID: 0}
     - target: {fileID: 1453378809137765455, guid: 3fd4d3d1d96cf0f4d8dbc9bb0c595996,
         type: 3}
@@ -3677,7 +3677,12 @@ PrefabInstance:
     - target: {fileID: 2674910484645256929, guid: 3fd4d3d1d96cf0f4d8dbc9bb0c595996,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674910484645256929, guid: 3fd4d3d1d96cf0f4d8dbc9bb0c595996,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3114396591180049421, guid: 3fd4d3d1d96cf0f4d8dbc9bb0c595996,
         type: 3}
@@ -3722,7 +3727,7 @@ PrefabInstance:
     - target: {fileID: 6085690920270026072, guid: 3fd4d3d1d96cf0f4d8dbc9bb0c595996,
         type: 3}
       propertyPath: healthChange
-      value: -3
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 8924249485290309166, guid: 3fd4d3d1d96cf0f4d8dbc9bb0c595996,
         type: 3}
