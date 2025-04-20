@@ -194,22 +194,22 @@ PrefabInstance:
     - target: {fileID: 3958941555595329716, guid: 654b5ba7f6f8d804d92476ecaad6eeb7,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.0867553
+      value: 4.7360997
       objectReference: {fileID: 0}
     - target: {fileID: 3958941555595329716, guid: 654b5ba7f6f8d804d92476ecaad6eeb7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.3576
+      value: -14.371
       objectReference: {fileID: 0}
     - target: {fileID: 3958941555595329716, guid: 654b5ba7f6f8d804d92476ecaad6eeb7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.2325
+      value: -10.9081
       objectReference: {fileID: 0}
     - target: {fileID: 3958941555595329716, guid: 654b5ba7f6f8d804d92476ecaad6eeb7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0072
+      value: -0.031
       objectReference: {fileID: 0}
     - target: {fileID: 3958941555595329716, guid: 654b5ba7f6f8d804d92476ecaad6eeb7,
         type: 3}
@@ -4301,7 +4301,7 @@ PrefabInstance:
     - target: {fileID: 5354220753573739930, guid: b063335fcc7e6164db8abf3eaad30570,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.46168286
+      value: 0.48979932
       objectReference: {fileID: 0}
     - target: {fileID: 5354220753573739930, guid: b063335fcc7e6164db8abf3eaad30570,
         type: 3}
@@ -4311,12 +4311,12 @@ PrefabInstance:
     - target: {fileID: 5354220753573739930, guid: b063335fcc7e6164db8abf3eaad30570,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.14
+      value: -19.06
       objectReference: {fileID: 0}
     - target: {fileID: 5354220753573739930, guid: b063335fcc7e6164db8abf3eaad30570,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.53
+      value: -12.45
       objectReference: {fileID: 0}
     - target: {fileID: 5354220753573739930, guid: b063335fcc7e6164db8abf3eaad30570,
         type: 3}
@@ -4395,7 +4395,7 @@ MonoBehaviour:
   orientToDirection: 0
   lookAxis: 0
   waypoints:
-  - {x: -0.38874936, y: -7.552546}
+  - {x: -19.22982, y: -6.361499}
 --- !u!50 &1228994832
 Rigidbody2D:
   serializedVersion: 4
