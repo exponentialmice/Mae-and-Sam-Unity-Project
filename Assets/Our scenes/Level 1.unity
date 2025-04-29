@@ -4014,6 +4014,18 @@ MonoBehaviour:
   pickupKey: 122
   dropKey: 120
   pickUpDistance: 1
+--- !u!114 &1834412217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834412208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7885e912b75a04f1197827f5d5011b84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1835051295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5008,12 +5020,12 @@ PrefabInstance:
     - target: {fileID: 125876035555053927, guid: aaff48bb9e9915f41b5f4facf947cd61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.985
+      value: -2.22
       objectReference: {fileID: 0}
     - target: {fileID: 125876035555053927, guid: aaff48bb9e9915f41b5f4facf947cd61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.29
+      value: -2.44
       objectReference: {fileID: 0}
     - target: {fileID: 125876035555053927, guid: aaff48bb9e9915f41b5f4facf947cd61,
         type: 3}
@@ -5158,6 +5170,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1834412216}
+    - targetCorrespondingSourceObject: {fileID: 5949881091846460725, guid: aaff48bb9e9915f41b5f4facf947cd61,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1834412217}
   m_SourcePrefab: {fileID: 100100000, guid: aaff48bb9e9915f41b5f4facf947cd61, type: 3}
 --- !u!1001 &8990363960484202350
 PrefabInstance:
@@ -5287,6 +5303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924249485290309166, guid: 3fd4d3d1d96cf0f4d8dbc9bb0c595996,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

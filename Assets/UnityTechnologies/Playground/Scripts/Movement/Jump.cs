@@ -22,8 +22,10 @@ public class Jump : Physics2DObject
 
 	private bool canJump = true;
 
-	// Read the input from the player
-	void Update()
+	public bool isJumping = false;
+
+    // Read the input from the player
+    void Update()
 	{
 		if(canJump
 			&& Input.GetKeyDown(key))
@@ -31,6 +33,8 @@ public class Jump : Physics2DObject
 			// Apply an instantaneous upwards force
 			rigidbody2D.AddForce(Vector2.up * jumpStrength, ForceMode2D.Impulse);
 			canJump = !checkGround;
+
+			isJumping = true;
 		}
 	}
 
@@ -40,6 +44,8 @@ public class Jump : Physics2DObject
 			&& collisionData.gameObject.CompareTag(groundTag))
 		{
 			canJump = true;
+
+			isJumping = false;
 		}
 	}
 }

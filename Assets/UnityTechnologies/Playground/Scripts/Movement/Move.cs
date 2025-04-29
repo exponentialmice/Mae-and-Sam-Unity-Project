@@ -19,7 +19,7 @@ public class Move : Physics2DObject
 	public Enums.Directions lookAxis = Enums.Directions.Up;
 
 	private Vector2 movement, cachedDirection;
-	private float moveHorizontal;
+	public float moveHorizontal;
 	private float moveVertical;
 
 
