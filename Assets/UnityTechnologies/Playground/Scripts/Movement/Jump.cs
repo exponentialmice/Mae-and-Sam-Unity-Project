@@ -40,9 +40,9 @@ public class Jump : Physics2DObject
 
 	private void OnCollisionEnter2D(Collision2D collisionData)
 	{
-		if(checkGround
-			&& collisionData.gameObject.CompareTag(groundTag))
-		{
+        if (checkGround
+            && collisionData.gameObject.CompareTag(groundTag) || collisionData.gameObject.CompareTag("Pickup"))
+        {
 			canJump = true;
 
 			isJumping = false;
