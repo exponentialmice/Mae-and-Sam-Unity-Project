@@ -864,7 +864,7 @@ MonoBehaviour:
   rigidbody2D: {fileID: 0}
   target: {fileID: 983965132}
   speed: 0.2
-  lookAtTarget: 1
+  lookAtTarget: 0
   useSide: 1
 --- !u!114 &139567797
 MonoBehaviour:
