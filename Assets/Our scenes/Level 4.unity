@@ -5651,7 +5651,7 @@ GameObject:
   - component: {fileID: 523548119}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5763,7 +5763,7 @@ Transform:
   m_GameObject: {fileID: 523548114}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 108.51, y: 74.05, z: 0}
+  m_LocalPosition: {x: 108.51, y: 74.14, z: 0}
   m_LocalScale: {x: 2.8503718, y: -0.37147582, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21827,7 +21827,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884028635}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -24813,12 +24813,12 @@ PrefabInstance:
     - target: {fileID: 271295216902163951, guid: 5fbb424d0a7246847803868236f5d5b4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 175.281
+      value: 208.7
       objectReference: {fileID: 0}
     - target: {fileID: 271295216902163951, guid: 5fbb424d0a7246847803868236f5d5b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 46.475
+      value: 66.3
       objectReference: {fileID: 0}
     - target: {fileID: 271295216902163951, guid: 5fbb424d0a7246847803868236f5d5b4,
         type: 3}
