@@ -5296,11 +5296,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requestDialogue:
-  - Um
-  - I'm guessing you know how to play by now.
-  - Jump with space, move with arrows.
-  - Stuff is gonna start getting crazy
-  - Good luck to ya! Wait who's that behind you?
+  - Oh! Hey.
+  - Y'know how to play by now...
+  - Right?
+  - Jump with space
+  - Move with arrows...
+  - Gettin crazy, huh...
+  - ' Wait who''s that behind you?'
   fulfilledDialogue: []
   requiresItems: 0
   requiredItemsList: []
